@@ -1,0 +1,32 @@
+#orange ul{
+	align-self: center;
+}
+
+#orange ul li:nth-child(even){
+	padding-left: 6vw;
+} /* shifts every other line of blue text */
+
+#orange ul li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 5vw;
+}
+
+#orange li:hover{
+	transition: 1s;
+	transform: rotateX(3.142rad) scale(1.1);
+} /* turns blue text upside down */
+
+#orange li a{
+	font-family: 'Inconsolata', monospace;
+	color:#FD6D48;
+  	text-shadow:
+		-1px -1px 0 #3C2ED0,  
+		1px -1px 0 #3C2ED0,
+		-1px 1px 0 #3C2ED0,
+		1px 1px 0 #3C2ED0;
+} /* text shadow is used to create stroke that is more likely to work in all browsers */
+
+#orange li a:visited{
+	color: #FD6D48;
+}  /* stays same font colour when clicked */

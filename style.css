@@ -64,6 +64,9 @@ section{
 	box-shadow: 0px 10px 40px 0px rgba(134,63,140,0.4);
 }
 
+
+/* MEDIA QUERIES: */
+
 @media screen and (max-width:1400px){
 	#orange p{
 		max-width: 65%;
