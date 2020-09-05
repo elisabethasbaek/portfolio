@@ -1,20 +1,20 @@
 #yellow{
-	background:#FFD452;
-	z-index:60;
+	background: #FFD452;
+	z-index: 60;
 	
-	display:grid;
-	place-content:center;
-	text-align:center;
-	line-height:10vw;
+	display: grid;
+	place-content: center;
+	text-align: center;
+	line-height: 10vw;
 }
 
-#yellow h2{
-	font-size:10vw;
-	color:#FD91A6;
+.yellow__headline{
+	font-size: 10vw;
+	color: #FD91A6;
 }
 
-#yellow p{
-	font-size:4vw;
-	font-weight:bold;
-	color:#FDF1B8;
+.yellow__subHeadline{
+	font-size: 4vw;
+	font-weight: bold;
+	color: #FDF1B8;
 }
