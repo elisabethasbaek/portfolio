@@ -1,0 +1,13 @@
+.headerHeading{
+	font-size:1.2rem;
+	color:#FD91A6;
+	align-self:end;
+}
+
+.headerHeading__link{
+	color:#FD91A6;
+}
+
+.headerHeading__link:visited{
+	color:#FD91A6;
+} /* stays same font colour when clicked */

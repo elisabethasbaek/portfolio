@@ -9,7 +9,6 @@
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"> <!-- favicon -->
 	<link href="style.css" rel="stylesheet" type="text/css"> <!-- connect to css file -->
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">  <!-- font awesome -->
-	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet"> <!-- google fonts -->
 
 	<script src="script.js" defer></script>
 	
@@ -19,11 +18,12 @@
 <body>
 <div id="wrapper"> <!-- start wrapper -->
 
-
 <header>
-	<h1><a href="#" title="back to top">elisabeth asb&aelig;k</a></h1>
+	<h1 class="headerHeading">
+		<a href="#" title="back to top" class="headerHeading__link">elisabeth asb&aelig;k</a>
+	</h1>
 
-	<i class="fa fa-bars" title="open menu"></i>
+	<i class="fa fa-bars burgerMenu" title="open menu"></i>
 
 	<nav>
 		<ul>
@@ -114,7 +114,9 @@
 		</article>
 	</section>
 
-	<a href="#"><i class="fas fa-chevron-circle-up" title="back to top"></i></a> <!-- back to top button -->
+	<a href="#" class="backToTopButton">
+		<i class="fas fa-chevron-circle-up backToTopButton__icon" title="back to top"></i>
+	</a> <!-- back to top button -->
 		
 </main>
 	

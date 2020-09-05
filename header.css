@@ -1,34 +1,12 @@
+@import "./header-heading.css";
+@import "./header-burger-menu.css";
+
 header{
-	padding:3vw 7vw 0 7vw;
-	position:fixed;
- 	top:0;
-	width:100%;
-	z-index:70;
-	display:flex;
-	justify-content:space-between;
+	padding: 3vw 7vw 0 7vw;
+	position: fixed;
+ 	top: 0;
+	width: 100%;
+	z-index: 70;
+	display: flex;
+	justify-content: space-between;
 } /* fixed header */
-
-header h1,
-header i{
-	font-size:1.2rem;
-	color:#FD91A6;
-	align-self:end;
-}
-
-header h1 a{
-	color:#FD91A6;
-}
-
-header h1 a:visited{
-	color:#FD91A6;
-} /* stays same font colour when clicked */
-
-header>i{
-	cursor:pointer;
-	transition:0.7s; /* hover: off */
-} /* burger menu */
-
-header>i:hover{
-	transition:0.7s ease-in-out;
-	transform:rotate(360deg) scale(3); /* hover: on */
-} /* burger menu hover */
