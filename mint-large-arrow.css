@@ -1,0 +1,19 @@
+#mint>i{
+	grid-area: 1/1/2/2;
+	align-self: center;
+	place-self: center;
+} /* large arrow icon container */
+
+#mint>i{
+	font-size: 20vw;
+	color: #FD91A6;
+	text-shadow: 0px 10px 30px rgba(134,63,140,0.5);
+	cursor: pointer;
+	transition: 1s;
+} /* large arrow icon */
+
+#mint>i:hover{
+	transition: 1s;
+	transform: scale(2);
+	color: #EEA5B1; /* a lighter tone when bigger ie. closer */
+} /* large arrow icon */

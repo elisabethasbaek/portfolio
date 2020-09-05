@@ -1,33 +1,33 @@
 #blue{
-    background: #75A3D1;
-    z-index: 50;
+	background: #75A3D1;
+	z-index: 50;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 4vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 4vw;
 } /* grid container for blue */
 
-.blue__headline{
-    font-size: 4vw;
-    color: #FD91A6;
-    justify-self: end;
-    align-self: center;
+#blue h2{
+	font-size: 4vw;
+	color: #FD91A6;
+	justify-self: end;
+	align-self: center;
 }
 
 #blue h2:nth-child(2){
-    display: none;
+	display: none;
 } /* for smaller screen sizes */
 
-.blue__aboutMe{
-    max-width: 80%;
-    display: grid;
-    grid-row-gap: 2vw;
-    align-content: center;
-} /* container for all paragraphs */
-
 #blue p{
-    font-size: 2vw;
-    font-weight: bold;
-    color: #3C2ED0;
-    line-height: 3vw;
+	font-size: 2vw;
+	font-weight: bold;
+	color: #3C2ED0;
+	line-height: 3vw;
 }
+
+#blue article{
+	max-width: 80%;
+	display: grid;
+	grid-row-gap: 2vw;
+	align-content: center;
+} /* container for all paragraphs */
