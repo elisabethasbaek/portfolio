@@ -24,7 +24,7 @@ function opacity(){
 
     //SHOW AND HIDE MENU
 //locates burger menu icon:
-const burger = document.querySelector(".fa-bars");
+const burger = document.querySelector(".burgerMenu");
 burger.addEventListener("click", showMenu);
 
 //locates entire navbar/menu:

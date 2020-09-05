@@ -11,5 +11,5 @@
 
 .burgerMenu:hover{
 	transition: 0.7s ease-in-out;
-	transform:r otate(360deg) scale(3); /* hover: on */
+	transform: rotate(360deg) scale(3); /* hover: on */
 } /* burger menu hover */
