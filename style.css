@@ -1,0 +1,78 @@
+@import "./header.css";
+@import "./navbar.css";
+@import "./back-to-top-button.css";
+@import "./yellow.css";
+@import "./blue.css";
+@import "./coral.css";
+@import "./mint.css";
+@import "./orange.css";
+@import "./footer.css";
+
+/* google fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+html{
+	scroll-snap-type: y mandatory;
+	background: #FFD452;
+} /* scroll snap for entire page and backup background colour */
+
+#wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+	font-family: 'Montserrat',sans-serif;
+}
+
+body h1,
+body h2{
+	font-family: 'Inconsolata', monospace;
+	white-space: pre-line; /* makes break points in text active */
+}
+
+p{
+	white-space: pre-line; /* makes break points in text active */
+	font-family: 'Open Sans', sans-serif;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block; /* removes white space under img (change to inline if necessary) */
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+	white-space: pre-line; /* makes break points in text active */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

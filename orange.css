@@ -1,0 +1,58 @@
+#orange{
+	background:#FD6D48;
+	z-index:20;
+	display:grid; /* to center content */
+}
+
+#orange article{
+	max-width:80vw;
+	align-self:center;
+	margin:0 auto;
+
+	display:grid;
+	grid-template-rows:2fr 1fr;
+} /* grid for all content in orange */
+
+#orange ul{
+	align-self:center;
+}
+
+#orange ul li:nth-child(even){
+	padding-left:6vw;
+} /* shifts ever other line of blue text */
+
+#orange ul li{
+	list-style:none;
+	text-decoration:none;
+	font-size:5vw;
+}
+
+#orange li:hover{
+	transition:1s;
+	transform:rotateX(3.142rad) scale(1.1);
+} /* turns blue text upside down */
+
+#orange li a{
+	font-family:'Inconsolata',monospace;
+	color:#FD6D48;
+  	text-shadow:
+		-1px -1px 0 #3C2ED0,  
+		1px -1px 0 #3C2ED0,
+		-1px 1px 0 #3C2ED0,
+		1px 1px 0 #3C2ED0;
+} /* text shadow is used to create stroke that is more likely to work in all browsers */
+
+#orange li a:visited{
+	color:#FD6D48;
+}  /* stays same font colour when clicked */
+
+#orange p{
+	max-width:55%;
+	font-size:0.9rem;
+	color:#FD91A6;
+	font-weight:bold;
+	line-height:3vw;
+	column-count:2;
+	column-gap:3vw;
+	place-self:end;
+} /* bottom small pink text */
