@@ -1,0 +1,10 @@
+@import "mint-large-arrow";
+@import "mint-hidden-form";
+
+#mint{
+	background: $mint;
+	z-index: 30;
+	display: grid;
+	grid-template-columns: 5fr 4fr;
+}
+

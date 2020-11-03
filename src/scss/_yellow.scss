@@ -1,5 +1,5 @@
 #yellow{
-	background: #FFD452;
+	background: $yellow;
 	z-index: 60;
 	
 	display: grid;
@@ -10,11 +10,11 @@
 
 .yellow__headline{
 	font-size: 10vw;
-	color: #FD91A6;
+	color: $pink;
 }
 
 .yellow__subHeadline{
 	font-size: 4vw;
 	font-weight: bold;
-	color: #FDF1B8;
+	color: $pale-yellow;
 }

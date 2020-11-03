@@ -1,7 +1,7 @@
-@import "./orange-project-links.css";
+@import "orange-project-links";
 
 #orange{
-	background: #FD6D48;
+	background: $orange;
 	z-index: 20;
 	display: grid; /* to center content */
 }
@@ -18,7 +18,7 @@
 #orange p{
 	max-width: 55%;
 	font-size: 0.9rem;
-	color: #FD91A6;
+	color: $pink;
 	font-weight: bold;
 	line-height: 3vw;
 	column-count: 2;

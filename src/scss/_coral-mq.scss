@@ -1,0 +1,67 @@
+@media screen and (max-width:1180px){
+	#coral img{
+		max-width: 90%;
+	}
+
+	#coral{
+        &.fa-chevron-left{
+            padding-left: 0.7vw;
+        }
+	}
+
+	#coral{
+        &.fa-chevron-right{
+            padding-right: 0.7vw;
+        }
+	}
+}
+
+@media screen and (max-width: 768px){
+	#coral h2{
+		margin-top: 5vw;
+		padding-right: 5vw;
+		font-size: 12vw;
+		line-height: 7.4vw;
+	}
+
+	#coral img{
+		max-width: 100%;
+	}
+
+	#coral{
+        &.fas{
+            font-size: 40vw;
+            position: relative;
+            bottom: 6vw;
+            grid-area: 3/1/4/2;
+        }
+	}
+
+	#coral{
+        &.fas:hover{
+            transform: scale(0.9); /* hover: on */
+        }
+	}
+
+	#coral{
+        &.fa-chevron-left{
+            padding-left: 0vw;
+        }
+	}
+	
+	#coral{
+		&.fa-chevron-right{
+            padding-left: 0vw;
+        }
+	}
+}
+
+@media screen and (max-width: 480px){
+	#coral h2{
+		padding-right: 0;
+		margin-bottom: 10vw;
+		font-size: 14vw;
+		line-height: 20vw;
+		justify-self: center;
+	}
+}

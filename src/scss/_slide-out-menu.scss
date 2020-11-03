@@ -8,7 +8,7 @@ nav{
 	top: 0;
 	width: 60vw;
 	height: 100vh;
-	background: #FD91A6;
+	background: $pink;
 	box-shadow: -10px 0px 100px rgba(134,63,140,0.8);
 }
 
@@ -21,7 +21,7 @@ nav li{
 }
 
 nav i{
-	color: #FFD452;
+	color: $yellow;
 	font-size: 1.7vw;
 	padding: 4vw 0;
 	cursor: pointer;
@@ -29,22 +29,22 @@ nav i{
 
 nav a{
 	text-decoration: none;
-	color: #3C2ED0;
-	font-family: 'Open Sans', sans-serif;
+	color: $dark-blue;
+	font-family: $font-stack-two;
 	font-weight: bold;
 	font-size: 1.5vw;
 	line-height: 5vw;
 }
 
 nav a:visited{
-	color: #3C2ED0;
+	color: $dark-blue;
 } /* stays same font colour when clicked */
 
 nav a span{
-	color: #75A3D1;
+	color: $blue;
 	font-weight: normal;
 } /* light blue text in menu */
 
 nav a:visited span{
-	color: #75A3D1;
+	color: $blue;
 } /* stays same font colour when clicked */

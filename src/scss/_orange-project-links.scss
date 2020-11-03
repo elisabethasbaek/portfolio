@@ -18,15 +18,15 @@
 } /* turns blue text upside down */
 
 #orange li a{
-	font-family: 'Inconsolata', monospace;
-	color:#FD6D48;
+	font-family: $font-stack-one;
+	color: $orange;
   	text-shadow:
-		-1px -1px 0 #3C2ED0,  
-		1px -1px 0 #3C2ED0,
-		-1px 1px 0 #3C2ED0,
-		1px 1px 0 #3C2ED0;
+		-1px -1px 0 $dark-blue,  
+		1px -1px 0 $dark-blue,
+		-1px 1px 0 $dark-blue,
+		1px 1px 0 $dark-blue;
 } /* text shadow is used to create stroke that is more likely to work in all browsers */
 
 #orange li a:visited{
-	color: #FD6D48;
+	color: $orange;
 }  /* stays same font colour when clicked */

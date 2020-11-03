@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px){
+    main>a>i{
+		margin: 0 7vw 7vw 7vw;
+		font-size: 1.6rem;
+		transition: 0s;
+	}
+
+	main>a>i:hover{
+		transition: 0s ease-in-out;
+		transform: rotate(0deg) scale(1);
+	} /* no hover events */
+}

@@ -53,7 +53,7 @@ function hideMenu(){
 let index = 0;
 
 //all images for gallery:
-const images = ['images/picture01.jpg', 'images/picture02.jpg', 'images/picture03.jpg', 'images/picture04.jpg', 'images/picture05.jpg', 'images/picture06.jpg', 'images/picture07.jpg', 'images/picture08.jpg', 'images/picture09.jpg', 'images/picture10.jpg'];
+const images = ['/images/picture01.jpg', '/images/picture02.jpg', '/images/picture03.jpg', '/images/picture04.jpg', '/images/picture05.jpg', '/images/picture06.jpg', '/images/picture07.jpg', '/images/picture08.jpg', '/images/picture09.jpg', '/images/picture10.jpg'];
 
 //locates the image that is shown:
 const newImage = document.querySelector("#coral img");

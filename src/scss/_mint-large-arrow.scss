@@ -6,7 +6,7 @@
 
 #mint>i{
 	font-size: 20vw;
-	color: #FD91A6;
+	color: $pink;
 	text-shadow: 0px 10px 30px rgba(134,63,140,0.5);
 	cursor: pointer;
 	transition: 1s;
@@ -15,5 +15,5 @@
 #mint>i:hover{
 	transition: 1s;
 	transform: scale(2);
-	color: #EEA5B1; /* a lighter tone when bigger ie. closer */
+	color: $light-pink; /* a lighter tone when bigger ie. closer */
 } /* large arrow icon */

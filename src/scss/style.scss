@@ -1,0 +1,105 @@
+@import "variables";
+
+@import "slide-out-menu";
+@import "header";
+@import "back-to-top-button";
+@import "yellow";
+@import "blue";
+@import "coral";
+@import "mint";
+@import "orange";
+@import "footer";
+
+/* google fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+html{
+	scroll-snap-type: y mandatory;
+	background-color: $yellow;
+} /* scroll snap for entire page and backup background colour */
+
+#wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+body h1,
+body h2{
+	font-family: $font-stack-one;
+	white-space: pre-line; /* makes break points in text active */
+}
+
+p{
+	white-space: pre-line; /* makes break points in text active */
+	font-family: $font-stack-two;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block; /* removes white space under img (change to inline if necessary) */
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+	white-space: pre-line; /* makes break points in text active */
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	scroll-snap-align: start;
+}
+
+.fullSizeSection{
+	position: relative;
+	box-shadow: 0px 10px 40px 0px rgba(134,63,140,0.4);
+}
+
+@import "nav-mq";
+@import "header-mq";
+@import "main-mq";
+@import "footer-mq";
+
+@import "yellow-mq";
+@import "orange-mq";
+@import "mint-mq";
+@import "blue-mq";
+@import "coral-mq";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

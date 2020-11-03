@@ -1,5 +1,5 @@
 #blue{
-	background: #75A3D1;
+	background: $blue;
 	z-index: 50;
 
 	display: grid;
@@ -9,7 +9,7 @@
 
 #blue h2{
 	font-size: 4vw;
-	color: #FD91A6;
+	color: $pink;
 	justify-self: end;
 	align-self: center;
 }
@@ -21,7 +21,7 @@
 #blue p{
 	font-size: 2vw;
 	font-weight: bold;
-	color: #3C2ED0;
+	color: $dark-blue;
 	line-height: 3vw;
 }
 

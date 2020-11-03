@@ -1,13 +1,13 @@
 .headerHeading{
-	font-size:1.2rem;
-	color:#FD91A6;
-	align-self:end;
+	font-size: 1.2rem;
+	color: $pink;
+	align-self: end;
 }
 
 .headerHeading__link{
-	color:#FD91A6;
+	color: $pink;
 }
 
 .headerHeading__link:visited{
-	color:#FD91A6;
+	color: $pink;
 } /* stays same font colour when clicked */

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1400px){
+	#orange p{
+		max-width: 65%;
+	} /* maintains three lines of text */
+}
+
+@media screen and (max-width: 1180px){
+	#orange p{
+		max-width: 75%;
+	} /* maintains three lines of text */
+}
+
+@media screen and (max-width: 768px){
+    #orange article{
+        max-width: 90vw;
+    }
+
+    #orange ul{
+        align-self: center;
+        justify-self: center;
+    }
+
+    #orange ul li{
+        font-size: 8vw;
+    }
+
+    #orange p{
+        padding-top: 2vw;
+        max-width: 45%;
+        line-height: 4vw;
+        column-count: 1;
+        column-gap: 0vw;
+    }
+
+    #orange p span::before{
+        content: "\A";
+    } /* inserts a linebreak in the paragraph, now that it's only one column */
+}
+
+@media screen and (max-width: 480px){
+	#orange article{
+		grid-template-rows: 3fr 2fr;
+	}
+
+	#orange ul{
+		align-self: end;
+	}
+
+	#orange ul li{
+		line-height: 15vw;
+	}
+
+	#orange p{
+		max-width: 55%;
+		line-height: 6vw;
+		align-self: start;
+		justify-self: end;
+	}
+}

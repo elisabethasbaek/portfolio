@@ -9,7 +9,7 @@
 #mint article i{
 	margin-top: 4vw;
 	font-size: 8vw;
-	color: #FD91A6;
+	color: $pink;
 	text-shadow: 0px 10px 30px rgba(134,63,140,0.5);
 	justify-self: center;
 	cursor: pointer;
@@ -18,7 +18,7 @@
 
 #mint article i:hover{
 	transform: scale(0.8);
-	color: #FF839E; /* a darker tone when smaller ie. further away */
+	color: $pink; /* a darker tone when smaller ie. further away */
 } /* arrow icon above form */
 
 #mint form{
@@ -32,18 +32,18 @@
 	padding-left: 1vw;
 	width: 35vw;
 	height: auto;
-	background: #FDF1B8;
+	background-color: $pale-yellow;
 	border: none;
 	box-shadow: 0px 10px 30px rgba(134,63,140,0.3);
 	font-size: 1rem;
 	font-family: 'Open Sans', sans-serif;
-	color: #FD91A6;
+	color: $pink;
 	font-weight: bold;
 }
 
 #mint input:focus,
 #mint textarea:focus{
-	outline-color: #863F8C;
+	outline-color: $outline-purple;
 }
 
 #mint input{
@@ -60,7 +60,7 @@
 #mint ::placeholder{
 	font-size: 1rem;
 	font-family: 'Open Sans', sans-serif;
-	color: #77BA9B;
+	color: $mint;
 	font-weight: bold;
 } /* placeholder in both input and textarea */
 
@@ -71,7 +71,7 @@
 	left: 0.25vw;
 	font-size: 5vw;
 	background: none;
-	color: #FFD452;
+	color: $yellow;
 	border: none;
 	text-align: end;
 	font-family: 'Inconsolata', monospace;
@@ -82,7 +82,7 @@
 #mint h2{
 	padding-left: 5vw;
 	font-size: 6vw;
-	color: #FFD452;
+	color: $yellow;
 	grid-area:1/2/2/3;
 	line-height: 8vw;
 	align-self: center;
@@ -92,8 +92,8 @@
 	max-width: 35vw;
 	position: relative;
 	top: 1vw;
-	font-family: 'Inconsolata', monospace;
-	color: #FD91A6;
+	font-family: $font-stack-one;
+	color: $pink;
 	-text-shadow: 0px 5px 20px rgba(134,63,140,0.3);
 	font-size: 1.5rem;
 	font-weight: bolder;
