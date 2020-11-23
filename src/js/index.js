@@ -24,14 +24,14 @@ function opacity(){
 
     //SHOW AND HIDE MENU
 //locates burger menu icon:
-const burger = document.querySelector(".burgerMenu");
+var burger = document.querySelector(".burgerMenu");
 burger.addEventListener("click", showMenu);
 
 //locates entire navbar/menu:
-const navbar = document.querySelector("header nav");
+var navbar = document.querySelector("header nav");
 
 //locates all elements in navbar/menu:
-const arrow = document.querySelectorAll("header nav li");
+var arrow = document.querySelectorAll("header nav li");
 for (let i=0; i<arrow.length; i++){
     arrow[i].addEventListener("click", hideMenu);
 }
